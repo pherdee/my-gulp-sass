@@ -1,25 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
 body {
     margin: 0;
     font: 16px/1 sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
-h1,
-h2,
-h3,
-h4,
-p,
-blockquote,
-figure,
-ol,
-ul {
-    margin: 0;
-    padding: 0;
-}
+
 main,
 li {
     display: block;
