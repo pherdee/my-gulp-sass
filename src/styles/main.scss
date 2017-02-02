@@ -1,3 +1,12 @@
 @import "includes/variables";
 @import "includes/normalize";
+@import "includes/grid";
 @import "includes/main";
+//@import "includes/grid";
+
+.item{
+  background-color: #e0e0e0;
+  border:#ccc 1px solid;
+  height: 40px;
+  margin:8px;
+}

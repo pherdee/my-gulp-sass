@@ -1,6 +1,6 @@
 
 body {
-  background-color: #f9f9f9;
+  background-color: $website-background-color;
   color:#333
 }
 
@@ -24,6 +24,9 @@ p{
   margin-top: 7px;
 }
 
+.container{
+
+}
 .serif-text {
   font-family: "Cormorant Garamond", serif;
 }
