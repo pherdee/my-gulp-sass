@@ -1,35 +1,36 @@
 
 body {
-  background-color: #f9f9f9;
-  color:#333
+  background-color: $body-background-color;
+  color:$font-color-default;
 }
 
 h1 {
-  font-size:1.5em;
-  font-weight: 100;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  font-size:1.8em;
+  font-family: $font-family-sans;
+  font-weight: $font-weight-regular;
 }
 
 h2{
   font-size: 1.4em;
+  font-weight: $font-weight-bold;
 }
 
 p{
   font-size: 1.1em;
-  font-family: "Lato", serif;
-  font-weight: 300;
-  letter-spacing: normal;
-  line-height: 1.8;
-  margin-top: 7px;
+  font-family: $font-family-sans;
+  font-weight: $font-weight-regular;
+  line-height: 1.32em;
+  padding-top: 0.5em;
+  width: 34em;
+  letter-spacing: 0.02em;
 }
 
 .serif-text {
-  font-family: "Cormorant Garamond", serif;
+  font-family: $font-family-serif;
 }
 
 .sans-text {
-  font-family: "Lato", sans-serif;
+  font-family: $font-family-sans;
 }
 
 .light-text {
@@ -45,7 +46,7 @@ p{
 }
 
 .nav-container {
-  background-color: #ee5250;
+  background-color: $secondary-color;
   color:#fff;
   list-style-type: none;
   height: 100%;

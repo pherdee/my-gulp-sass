@@ -1,3 +1,22 @@
-$website-background-color: #f0f0f0;
-$font-color:#877;
-$deneme:'a';
+
+/* colors */
+$main-color:#2255ff;
+$secondary-color: #f06253;
+
+$color-white:#ffffff;
+$color-grey-10: #f3f3f3;
+
+$body-background-color: $color-white;
+
+/* Font Variables */
+$font-family-sans: 'IBM Plex Sans', sans-serif;
+$font-family-serif: 'IBM Plex Serif', serif;
+$font-family-mono: 'IBM Plex Mono', monospace;
+
+$font-weight-thin: 200;
+$font-weight-default: 400;
+$font-weight-regular: $font-weight-default;
+$font-weight-bold: 600;
+
+$font-color-default: #323232;
+//$font-color-light: lighten($font-color-default);

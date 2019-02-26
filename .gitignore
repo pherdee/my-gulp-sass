@@ -1,1 +1,8 @@
 node_modules/
+.idea/
+.sass-cache/
+dist/
+npm-debug.log
+package-lock.json
+yarn-error.log
+yarn.lock

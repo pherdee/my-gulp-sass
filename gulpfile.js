@@ -16,18 +16,21 @@ gulp.task('serve', function() {
         server: "./dist"
     });
     gulp.watch("src/styles/**/*.scss", ['styles']);
+    gulp.watch("src/**/*.html", ['copy']);
+
+    gulp.watch("src/**/*.html").on('change', browserSync.reload);
     gulp.watch("src/styles/**/*.scss").on('change', browserSync.reload);
 });
 
 // Styles
 gulp.task('styles', function() {
-  return sass('src/styles/main.scss', { style: 'expanded' })
+  return sass('src/styles/app.scss', { style: 'expanded' })
     .pipe(autoprefixer('last 2 version'))
     .pipe(gulp.dest('dist/styles'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(cssnano())
     .pipe(gulp.dest('dist/styles'))
-    .pipe(notify({ message: 'Styles task complete' }));
+    //.pipe(notify({ message: 'Styles task complete' }));
 });
 
 // Clean
@@ -38,7 +41,7 @@ gulp.task('clean', function() {
 gulp.task('copy', function () {
     gulp.src('./src/*.html')
         .pipe(gulp.dest('./dist/'))
-        .pipe(notify({ message: 'Html files have been copied' }));;
+      //  .pipe(notify({ message: 'Html files have been copied' }));;
 });
 
 // Default task
