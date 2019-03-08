@@ -15,6 +15,8 @@ gulp.task('serve', function() {
     browserSync.init({
         server: "./dist"
     });
+
+    gulp.watch("src/*.html", ['copy']);
     gulp.watch("src/styles/**/*.scss", ['styles']);
     gulp.watch("src/**/*.html", ['copy']);
 

@@ -1,4 +1,5 @@
 node_modules/
+<<<<<<< HEAD
 .idea/
 .sass-cache/
 dist/
@@ -6,3 +7,6 @@ npm-debug.log
 package-lock.json
 yarn-error.log
 yarn.lock
+=======
+.sass-cache/
+>>>>>>> b8005be5e9c1c7f5960a966088fd1fc76e89e18e

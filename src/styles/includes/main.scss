@@ -1,7 +1,12 @@
 
 body {
+<<<<<<< HEAD
   background-color: $body-background-color;
   color:$font-color-default;
+=======
+  background-color: $website-background-color;
+  color:#333
+>>>>>>> b8005be5e9c1c7f5960a966088fd1fc76e89e18e
 }
 
 h1 {
@@ -25,6 +30,9 @@ p{
   letter-spacing: 0.05em;
 }
 
+.container{
+
+}
 .serif-text {
   font-family: $font-family-serif;
 }
